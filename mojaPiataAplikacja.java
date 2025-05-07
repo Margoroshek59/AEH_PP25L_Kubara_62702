@@ -1,32 +1,7 @@
 package pl.pp;
 import java.util.Scanner;
 public class mojaPiataAplikacja {
-    public static void drukujZnak(char znak, int ileRazy, int ileLinii) {
-        for (int i = 0; i < ileLinii; i++) {
-            for (int j = 0; j < ileRazy; j++) {
-                System.out.print(znak);
-            }
-            System.out.println();
-        }
-    }
-
-    public static void main(String[] args) {
-
-            Scanner scanner = new Scanner(System.in);
-
-            System.out.print("Podaj znak do wydrukowania: ");
-            char znak = scanner.next().charAt(0);
-
-            System.out.print("Ile razy ma być wydrukowany w wierszu: ");
-            int ileRazy = scanner.nextInt();
-
-            System.out.print("Ile linii ma zostać wydrukowanych: ");
-            int ileLinii = scanner.nextInt();
-
-            drukujZnak(znak, ileRazy, ileLinii);
-    }
-}
-/* // Obliczenia i wyświetlenie wyniku dla wartości przypisanych w kodzie aplikacji
+ // Obliczenia i wyświetlenie wyniku dla wartości przypisanych w kodzie aplikacji
         System.out.println("Obliczenia i wyświetlenie wyniku dla wartości przypisanych w kodzie aplikacji");
         boolean gameOver = true;
         int score = 800;
@@ -102,4 +77,3 @@ public class mojaPiataAplikacja {
         return finalScore;
     }
 
-        */
